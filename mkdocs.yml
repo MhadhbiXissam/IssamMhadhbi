@@ -11,7 +11,11 @@ markdown_extensions:
 - pymdownx.snippets
 - pymdownx.superfences
 nav:
+- Tags: Tags.md
+- Watershed Algorithm: Watershed_Algorithm.md
+- index: index.md
 - Hacks:
+  - Imshow Matplotlib: Hacks/Imshow_Matplotlib.md
   - Kill Process By Port: Hacks/Kill_Process_By_Port.md
   - Nice bash Couse: Hacks/Nice_bash_Couse.md
   - Rename file: Hacks/Rename_file.md
@@ -19,16 +23,10 @@ nav:
   - Usb Tethering: Hacks/Usb_Tethering.md
   - setup jupyter vs code: Hacks/setup_jupyter_vs_code.md
   - vsocde-make-build: Hacks/vsocde-make-build.md
-- Learning OpenCV 3 Computer Vision with Python:
-  - Chapitre 2: Learning OpenCV 3 Computer Vision with Python/Chapitre_2.md
-  - Chapitre 3: Learning OpenCV 3 Computer Vision with Python/Chapitre_3.md
-  - Chapitre 4: Learning OpenCV 3 Computer Vision with Python/Chapitre_4.md
-  - Code Snippets: Learning OpenCV 3 Computer Vision with Python/Code_Snippets.md
-- Tags: Tags.md
-- Usefull Websites:
-  - Free GPT4: Usefull Websites/Free_GPT4.md
-  - Good Computer Vision Lecture: Usefull Websites/Good_Computer_Vision_Lecture.md
-- index: index.md
+- chp2: chp2.md
+- Chaptre 2: Chaptre_2.md
+- Tips and Tricks:
+  - Test: Tips and Tricks/Test.md
 plugins:
 - tags:
     listings_map:
@@ -42,7 +40,7 @@ plugins:
     - stemmer
     - stopWordFilter
     - trimmer
-site_name: Documentation
+site_name: Issam Mhadhbi
 theme:
   features:
   - search.share
