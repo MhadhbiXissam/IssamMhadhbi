@@ -1,0 +1,56 @@
+markdown_extensions:
+- attr_list
+- md_in_html
+- pymdownx.superfences
+- pymdownx.highlight:
+    anchor_linenums: true
+    line_spans: __span
+    linenums: true
+    pygments_lang_class: true
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.superfences
+nav:
+- Hacks:
+  - Kill Process By Port: Hacks/Kill_Process_By_Port.md
+  - Nice bash Couse: Hacks/Nice_bash_Couse.md
+  - Rename file: Hacks/Rename_file.md
+  - Scrcpy app: Hacks/Scrcpy_app.md
+  - Usb Tethering: Hacks/Usb_Tethering.md
+  - setup jupyter vs code: Hacks/setup_jupyter_vs_code.md
+  - vsocde-make-build: Hacks/vsocde-make-build.md
+- Learning OpenCV 3 Computer Vision with Python:
+  - Chapitre 2: Learning OpenCV 3 Computer Vision with Python/Chapitre_2.md
+  - Chapitre 3: Learning OpenCV 3 Computer Vision with Python/Chapitre_3.md
+  - Chapitre 4: Learning OpenCV 3 Computer Vision with Python/Chapitre_4.md
+  - Code Snippets: Learning OpenCV 3 Computer Vision with Python/Code_Snippets.md
+- Tags: Tags.md
+- Usefull Websites:
+  - Free GPT4: Usefull Websites/Free_GPT4.md
+  - Good Computer Vision Lecture: Usefull Websites/Good_Computer_Vision_Lecture.md
+- index: index.md
+plugins:
+- tags:
+    listings_map:
+      scoped:
+        scope: true
+    listings_sort_by: '!!python/name:material.plugins.tags.item_url'
+    listings_sort_reverse: true
+    tags_file: Tags.md
+- search:
+    pipeline:
+    - stemmer
+    - stopWordFilter
+    - trimmer
+site_name: Documentation
+theme:
+  features:
+  - search.share
+  - content.code.copy
+  - content.code.select
+  name: material
+  palette:
+  - scheme: default
+    toggle:
+      icon: material/brightness-7
+      name: Switch to light mode
