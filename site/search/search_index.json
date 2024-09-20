@@ -1,1 +1,0 @@
-{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stemmer","stopWordFilter","trimmer"]},"docs":[{"location":"Tips%20and%20Tricks/Test/","title":"Test","text":""},{"location":"Tips%20and%20Tricks/Test/#create-mkdocs","title":"create mkdocs","text":"<p>loremdqscdfsdfsdfsdfsdf sdf sdf</p> <p>sdf ds f sdf</p>"}]}
