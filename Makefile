@@ -3,3 +3,7 @@ build-docs :
 
 serve : 
 	mkdocs serve
+
+push  : 
+	git add . && git status && git commit -m "Commit on $$(date +'%Y-%m-%d %H:%M')" && git push origin main
+
